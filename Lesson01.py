@@ -92,6 +92,37 @@ help(list_01.extend)
 help(list_01.append)
 
 
+# In[5]:
+
+
+for i in range(2):
+    print("PrintFuntion01","PrintFuntion02",sep="_",end="**")
+
+
+# In[22]:
+
+
+#Mutable
+disctionary_01 = {"Kerala":56000,"Karnataka":120000,"Goa":1122}
+print(disctionary_01)
+disctionary_01.update({"Tamilnadu":12121122})
+disctionary_01.setdefault("Maharashtra",22323233)
+print(disctionary_01.get("Kerala"))
+print(disctionary_01.items())
+print(disctionary_01.keys())
+print(disctionary_01.values())
+dir(disctionary_01)
+help(disctionary_01.setdefault)
+
+
+# In[23]:
+
+
+set_01 = {12,43,565,121,12,6767,43}
+print(set_01)
+print(type(set_01))
+
+
 # In[ ]:
 
 
